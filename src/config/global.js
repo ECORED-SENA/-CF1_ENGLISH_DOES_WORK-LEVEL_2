@@ -1,9 +1,9 @@
 export default {
   global: {
     componenteFormativo:
-      '<em>These are the things that are around me</em><br><span>Estas son las cosas que están a mi alrededor</span>',
+      '<em>This is where I live</em><br><span>Aquí es donde vivo</span>',
     descripcionCurso:
-      'Este componente brinda herramientas para nombrar cualidades de personas con adjetivos calificativos, intercambiar información acerca de lugares y objetos ubicándolos en un tiempo o espacio determinado con adjetivos demostrativos; para brindar aún más información con respecto a lo que se habla usando adverbios, y enseguida hablar de gustos y disgustos con las expresiones correctas para pronunciar adecuadamente los <em>linking sounds</em> en el inglés americano.',
+      'Para tener las herramientas necesarias a la hora de brindar las indicaciones sobre la ubicación de algo, se explica el tema de preposiciones de lugar; seguidamente, se hace una introducción a las WH questions y se profundiza en las aplicaciones de “Where”. Por último, se indica vocabulario sobre lugares en el hogar y su contexto cercano (barrio, lugares comunes en la ciudad).',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.svg'),
     imagenesDecorativasBanner: [
@@ -22,6 +22,10 @@ export default {
       {
         clases: ['banner-principal-decorativo-6'],
         imagen: require('@/assets/curso/portada/banner-principal-decorativo-6.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-7'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-7.svg'),
       },
     ],
   },
@@ -42,93 +46,36 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: '<em>Adjectives: describe and show objects and people</em>',
+        titulo: 'Preposiciones de lugar',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.1',
-            titulo: '<em>Qualifying adjectives</em>',
-            hash: 't_1_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.2',
-            titulo: '<em>Demonstrative adjectives</em>',
-            hash: 't_1_2',
-          },
-        ],
       },
       {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: '<em>What is an adverb?</em>',
+        titulo: '2.	Introducción a las <em>WH questions</em>',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.1',
-            titulo: '<em>Adverbs of intensity</em>',
-            hash: 't_2_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.2',
-            titulo: '<em>Use and differences between "really" and "very"</em>',
-            hash: 't_2_2',
-          },
-        ],
       },
       {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: '<em>What do I like and what do I not like?</em>',
+        titulo: '<em>I´m at home</em>',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '3.1',
-            titulo:
-              '<em>How to conjugate the verb "like" in the simple present tense</em>',
+            titulo: '<em>Parts of a house</em>',
             hash: 't_3_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '3.2',
-            titulo: '<em>Other expressions to express like and dislike</em>',
+            titulo: '<em>Places in a city</em>',
             hash: 't_3_2',
           },
         ],
-      },
-      {
-        nombreRuta: 'tema4',
-        icono: 'far fa-file-alt',
-        numero: '4',
-        titulo: '<em>Linking words</em>',
-        desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '4.1',
-            titulo: '<em>Conjunctions versus Connectors</em>',
-            hash: 't_4_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '4.2',
-            titulo: '<em>How to use "and", "or", "but"?</em>',
-            hash: 't_4_2',
-          },
-        ],
-      },
-      {
-        nombreRuta: 'tema5',
-        icono: 'far fa-file-alt',
-        numero: '5',
-        titulo: '<em>Pronunciation of the linking sounds</em>',
-        desarrolloContenidos: true,
       },
     ],
     subMenu: [
@@ -173,113 +120,86 @@ export default {
   referencias: [
     {
       referencia:
-        'Collins. (s. f.). <em>Demonstrative adjectives - Easy Learning Grammar Spanish</em>. ',
+        'Aprender Inglés Rápido y Fácil. (2014). <em>Wh Questions en inglés con ejemplos - Preguntas WH</em>. ',
       link:
-        'https://grammar.collinsdictionary.com/es/gramatica-de-aprendizaje-espanol/demonstrative-adjectives',
+        'https://www.aprenderinglesrapidoyfacil.com/2014/02/14/wh-questions-en-ingles-preguntas-wh-en-ingles',
     },
     {
       referencia:
-        'Collins. (s. f.). <em>What is a verb in English? - Easy Learning Grammar</em>. ',
+        'Cambridge University Press (s. f.). <em>Diccionarios</em>. Cambridge Dictionary. ',
+      link: 'https://dictionary.cambridge.org/es-LA/dictionary/',
+    },
+    {
+      referencia: 'Collins. (s. f.). <em>Definición de preposition</em>. ',
       link:
-        'https://grammar.collinsdictionary.com/es/gramatica-de-aprendizaje/what-is-a-verb-in-english',
+        'https://www.collinsdictionary.com/es/diccionario/ingles/preposition#:~:text=A%20preposition%20is%20a%20word,sentences%20that%20contain%20a%20preposition',
     },
     {
       referencia:
-        'Cambridge University Press. (s. f.). <em>Intensifiers (very, at all). Cambridge Dictionary</em>. ',
-      link:
-        'https://dictionary.cambridge.org/es-LA/grammar/british-grammar/intensifiers-very-at-all',
+        'Hesjedal, T. (2021). <em>Prepositions of Place and Movement</em>. Ndla. ',
+      link: 'https://ndla.no/article/31684',
     },
     {
       referencia:
-        'Cambridge University Press. (s. f.). <em>Adjectives: order. Cambridge Dictionary</em>. ',
-      link:
-        'https://dictionary.cambridge.org/es-LA/grammar/british-grammar/adjectives-order',
+        'McLellan, C. (2020). <em>Las preposiciones in, at, on en inglés</em>. British Council España. ',
+      link: 'https://www.britishcouncil.es/blog/preposiciones-in-on-at',
     },
     {
       referencia:
-        'Graduate Writing Center. (s. f.). <em>Linking Words (Conjunctions and Connectors). Yale Center for Teaching and Learning</em>. ',
-      link:
-        'https://ctl.yale.edu/sites/default/files/files/GWC_LinkingWords-1.pdf',
-    },
-    {
-      referencia:
-        'Arango, M. y Herranz, A. (2015). <em>Diferencia entre oración, cláusula y proposición</em>. Centro Virtual Cervantes. ',
-      link: 'https://cvc.cervantes.es/foros/leer_asunto1.asp?vCodigo=50911',
-    },
-    {
-      referencia:
-        'British Council. <em>Adjectives</em>. British Council LearnEnglish. ',
-      link:
-        'https://learnenglish.britishcouncil.org/grammar/english-grammar-reference/adjectives',
+        'Zamora, V. (2021). <em>Guía detallada de las preposiciones en inglés</em>. British Council México. ',
+      link: 'https://www.britishcouncil.org.mx/blog/preposiciones',
     },
   ],
   glosario: [
     {
-      termino: 'Adjetivo / <em>Adjective</em>',
-      significado:
-        'los adjetivos son una de las cuatro clases principales de palabras gramaticales, junto con los sustantivos, los verbos y los adverbios. Son palabras que dan más información sobre personas, animales o cosas representadas por sustantivos y pronombres (pueden describir las cualidades, indicar la cantidad, etc.), y pueden ir en diferentes posiciones en una oración. Por ejemplo: <em>huge, silly, yellow, many, few,</em> etc.',
+      termino: '<em>Interlocutor</em> / Interlocutor',
+      significado: 'persona que toma parte en un diálogo.',
     },
     {
-      termino: 'Adjetivo demostrativo / <em>Demonstrative adjective</em>',
+      termino: '<em>Informative questions</em> / Preguntas informativas',
       significado:
-        'un adjetivo demostrativo es un adjetivo que se usa para señalar específicamente la posición de algo o alguien en el espacio o en el tiempo. Los adjetivos demostrativos más utilizados son <em>this, that, these</em> y <em>those</em>.',
+        'también llamadas preguntas abiertas, son las preguntas que, a diferencia de las preguntas cerradas, no se pueden contestar con un simple “sí” o “no”. Las preguntas informativas interpelan y demandan un dato o información: <em>Where?</em> (¿Dónde?), <em>What?</em> (¿Qué?), <em>How?</em> (¿Cómo?), etc.',
     },
     {
-      termino: 'Adverbio / <em>Adverb</em>',
+      termino: '<em>Preposition</em> / Preposición',
       significado:
-        'los adverbios son una de las cuatro clases principales de palabras gramaticales, junto con los sustantivos, los verbos y los adjetivos. Son palabras que usamos dentro de una oración para modificar verbos, adjetivos y otros adverbios. Su labor es brindar más información acerca del elemento que califican.',
+        'una preposición es una palabra como "<em>by</em>", "<em>for</em>", "<em>into</em>" o "<em>with</em>", que generalmente tiene un grupo de sustantivos como objeto.',
     },
     {
-      termino: 'Cláusula / <em>Clause</em>',
+      termino: '<em>Prepositions of place</em> / Preposiciones de lugar',
       significado:
-        'el término cláusula se usa con un sentido predominantemente gramatical, usado para referirse a una oración que forma parte de una oración compuesta más grande.',
-    },
-    {
-      termino: 'Conector / <em>Connector</em>',
-      significado:
-        'las conjunciones (<em>conjunctions</em>) y los conectores (<em>connectors</em>) describen la relación entre dos declaraciones. Las conjunciones unen gramaticalmente dos cláusulas (independientes o dependientes, dependiendo de la conjunción) para que se lean como una sola oración. Los conectores se utilizan entre dos oraciones separadas. Ejemplos de conjunciones: <em>And</em> (y), <em>or</em> (o), <em>but</em> (pero), <em>yet</em> (a pesar de que), <em>nor</em> (ni).<br>Ejemplos de conectores: <em>also</em> (además), <em>however</em> (sin embargo), <em>otherwise</em> (de lo contrario), <em>therefore</em> (por lo tanto), <em>meanwhile</em> (entretanto).',
-    },
-    {
-      termino: 'Sonidos conectados / <em>Linking sounds</em>',
-      significado:
-        'es la vinculación que ocurre cuando el final de una palabra se mezcla con otra. Esto puede pasar cuando el último sonido de una palabra es una consonante y el primer sonido de la siguiente palabra es una vocal (consonante con vocal), cuando el último sonido de una palabra es una consonante y el primer sonido de la siguiente palabra es la misma consonante (consonante con consonante), o cuando el último sonido de una palabra es una vocal y el primer sonido de la siguiente palabra es una vocal (vocal con vocal); en todos estos casos, se obtiene un enlace que conecta la pronunciación de las palabras y suenan como si fueran una sola. Por ejemplo, <em>Hold on</em> - suena / <em>wholedon</em> /.',
-    },
-    {
-      termino: 'Verbo / <em>Verb</em>',
-      significado:
-        'los verbos son una de las cuatro clases principales de palabras gramaticales, junto con los sustantivos, los adverbios y los adjetivos. Nos permiten hablar de actividades, procesos, estados del ser y estados de ánimo. Palabras como "cantar" (<em>to sing</em>), "sentir" (<em>to feel</em>) o "beber" (<em>to drink</em>) son verbos, y se usan con un sujeto para decir lo que alguien o algo hace o lo que les sucede, o para dar información sobre ellos.',
+        'las preposiciones de lugar se utilizan para mostrar la posición o ubicación de una persona o cosa en relación con otra persona o cosa. Responden a la pregunta "¿dónde?" (<em>where?</em>).',
     },
   ],
   complementario: [
     {
-      tema: '<em>Adjectives: describe and show objects and people</em>',
+      tema: 'Preposiciones de lugar',
       referencia:
-        'British Council. (s. f.). <em>Adjectives. LearnEnglish Kids</em>.',
-      tipo: 'Práctica online',
+        'British Council. (s. f.). <em>Prepositions of place</em>. LearnEnglish Kids.',
+      tipo: 'Web',
       link:
-        'https://learnenglishkids.britishcouncil.org/grammar-practice/adjectives',
+        'https://learnenglishkids.britishcouncil.org/grammar-practice/prepositions-place',
     },
     {
-      tema: '<em>Adjectives: describe and show objects and people</em>',
+      tema: 'Introducción a las <em>WH questions</em>',
       referencia:
-        'British Council. (s. f.). <em>Adverbs. LearnEnglish Kids</em>.',
-      tipo: 'Práctica online',
+        'Ellii (formerly ESL Library). (2021). <em>Wh- Questions</em>. YouTube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=x_4AjSwTXdc',
+    },
+    {
+      tema: '<em>I´m at home</em>',
+      referencia:
+        '<em>British Council. (s.f.). <em>Places in a town</em>. LearnEnglish Teens.</em>.',
+      tipo: 'Web',
       link:
-        'https://learnenglishkids.britishcouncil.org/grammar-practice/adverbs',
+        'https://learnenglishteens.britishcouncil.org/vocabulary/a1-a2-vocabulary/places-town',
     },
     {
-      tema: '<em>Linking words</em>',
-      referencia:
-        'Agenda Web. (s. f.). <em>Conjunctions - Exercises: basic conjunctions</em>.',
-      tipo: 'Práctica online',
-      link: 'https://agendaweb.org/grammar/conjunctions-exercises.html',
-    },
-    {
-      tema: '<em>Linking words</em>',
-      referencia:
-        'Castellanos, P. (2017). <em>Practicing linking sounds through listening. Rosario English Area</em>.',
-      tipo: 'PDF',
-      descarga: '/downloads/Anexo2.pdf',
+      tema: '<em>I´m at home</em>',
+      referencia: 'Agenda Web. (s. f.). <em>Places – shops</em>.',
+      tipo: 'Web',
+      link: 'https://agendaweb.org/vocabulary/places_city-exercises.html',
     },
   ],
   creditos: {
