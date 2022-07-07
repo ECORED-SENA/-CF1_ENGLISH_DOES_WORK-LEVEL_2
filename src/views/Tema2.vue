@@ -3,11 +3,11 @@
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
     
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span(style="color: #FFF") 2
       h1 Introducción a las #[i WH questions]
-    .row.align-items-end.bg-color3.mb-5
+    .row.align-items-end.bg-color3.mb-5(data-aos="fade-right")
       .col-lg-4.mb-4.mb-lg-0
         figure.fig-position3
           img(src='@/assets/curso/tema2/img1.png', style="width: 450px").m-auto
@@ -16,11 +16,11 @@
         p.mb-lg-5 A diferencia de las preguntas cerradas, de las cuales solo se espera como respuesta  “sí” o “no”, las #[b #[i.txt-color1 WH- questions]] exigen a quien responde una información o dato en particular.
         p.mb-4.txt-color4 Se pueden encontrar diferentes WH questions en inglés y cada una de ellas va a pedir información específica (como en el caso de #[b #[i.txt-color3 “Where?”]], -¿Dónde?-, que pide una ubicación) dependiendo de cuál se use en la pregunta.
     p.mb-5.text-center #[b #[i Las Wh- questions son:]]
-    .row.justify-content-center
+    .row.justify-content-center(data-aos="fade-left")
       .col-lg-6
         .titulo-sexto.color-acento-contenido
           p.mb-0 #[b Tabla 1]. #[i Wh- questions]
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5(data-aos="fade-right")
       .col-lg-6.p-4.bg-color4
         .row
           .col-lg-4.d-none.d-lg-block
@@ -67,7 +67,7 @@
               :audio="require('@/assets/curso/tema2/audio7.mp3')"
               @audio-hover="mostrarIndicadorTarjetaAudio = false"
             )
-    .row.bg-color5.mb-5
+    .row.bg-color5.mb-5(data-aos="fade-right")
       .col-lg-8.mb-4.mb-lg-0
         p.mb-4 En general, la estructura de las preguntas informativas es la siguiente:
         .titulo-sexto.color-acento-contenido
@@ -115,7 +115,7 @@
           img(src='@/assets/curso/tema2/img5.svg', style="width: 350px").m-auto
     p.text-center.mb-4 Ahora, revise el uso de #[i “where”] como pregunta por un #[b #[u.txt-color1 lugar]] o una #[b #[u.txt-color1 ubicación]] según el contexto de la pregunta.
     p.text-center.mb-5 Hacer la pregunta “¿dónde?”
-    .row.bg-color6
+    .row.bg-color6(data-aos="fade-down")
       .col-12.px-5
         .row.align-items-end
           .col-lg-4.mb-4.mb-lg-0
@@ -170,7 +170,7 @@
                         @audio-hover="mostrarIndicadorTarjetaAudio = false"
                       )
                       p.mb-0.ms-3 ¿Dónde está la manzana?
-    .row.bg-color7.mb-2
+    .row.bg-color7.mb-2(data-aos="fade-right")
       .col-12.px-5
         .p-4
           .row.align-items-center.justify-content-center
@@ -192,7 +192,7 @@
     Separador
     .titulo-segundo.color-acento-contenido
       h2 Actividad didáctica
-    .row.justify-content-center.align-items-center.align-items-lg-stretch
+    .row.justify-content-center.align-items-center.align-items-lg-stretch(data-aos="fade-right")
       .col-6.col-md-4.col-lg-3.mb-4.mb-md-0
         .tarjeta.h-100.d-flex.align-items-center.p-4
           figure

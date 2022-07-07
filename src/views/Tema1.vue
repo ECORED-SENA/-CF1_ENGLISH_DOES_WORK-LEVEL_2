@@ -3,18 +3,18 @@
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span(style="color: #FFF") 1
       h1 Preposiciones de lugar
-    .row.align-items-center.mb-5
+    .row.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-4.mb-4.mb-lg-0
         figure
           img(src='@/assets/curso/tema1/img1.svg', style="width: 450px").m-auto
       .col-lg-8
         p Las preposiciones de lugar son palabras que muestran la ubicación de un objeto, persona o animal. En inglés, existen diferentes tipos de preposiciones de lugar que ayudan a dar idea del lugar en el que se encuentra algo o alguien. Es importante no quedarse solo con la traducción, porque algunas, pese a traducirse de la misma forma en español, tienen diferentes usos en inglés:
         p.mb-0 A continuación, se explican las preposiciones de lugar en inglés:
-    .row.p-4.bg-color1.mb-5
+    .row.p-4.bg-color1.mb-5(data-aos="fade-left")
       .col-12
         h3.text-center.text-white.my-4 #[i Prepositions of place]
         .row.justify-content-center
@@ -125,7 +125,7 @@
               .col-auto.fig-position1
                 a.boton.color-acento-botones.indicador__container(@click="modal13 = true")
                   span.text-center #[i FAR FROM]
-    .row.justify-content-center.align-items-end
+    .row.justify-content-center.align-items-end(data-aos="fade-up")
       .col-lg-4.mb-4.mb-lg-0
         figure
           img(src='@/assets/curso/tema1/img1.png', style="width: 450px").m-auto
@@ -134,7 +134,7 @@
     Separador
     .titulo-segundo.color-acento-contenido
       h2 Actividad didáctica
-    .row.justify-content-center.align-items-center.align-items-lg-stretch
+    .row.justify-content-center.align-items-center.align-items-lg-stretch(data-aos="fade-right")
       .col-6.col-md-4.col-lg-3.mb-4.mb-md-0
         .tarjeta.h-100.d-flex.align-items-center.p-4
           figure

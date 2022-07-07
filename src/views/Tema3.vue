@@ -3,11 +3,11 @@
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
     
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span(style="color: #FFF") 3
       h1 #[i I'm at home]
-    .row.justify-content-center.align-items-end.bg-color3
+    .row.justify-content-center.align-items-end.bg-color3(data-aos="fade-right")
       .col-lg-4.mb-4.mb-lg-0
         figure.fig-position5
           img(src='@/assets/curso/tema3/img1.png', style="width: 450px").m-auto
@@ -24,7 +24,7 @@
     .titulo-segundo.color-acento-contenido
       h2 3.1 #[i Parts of a house]
     p.mb-5 Se entiende que cada hogar es diferente; sin embargo, es posible utilizar cierto vocabulario en inglés para reconocer las partes de la casa más comunes.
-    .row.bg-color9
+    .row.bg-color9(data-aos="fade-left")
       .col-12.p-5
         .row.justify-content-center.align-items-center.mb-5
           .col-lg-3.mb-4.mb-lg-0
@@ -161,7 +161,7 @@
                   @audio-hover="mostrarIndicadorTarjetaAudio = false"
                 )
                 p.mb-0.ms-3 Por favor, cierra la ventana.
-    .row.bg-color10
+    .row.bg-color10(data-aos="fade-right")
       .col-12.p-5
         .row.justify-content-center.align-items-center.mb-5
           .col-lg-5.mb-4.mb-lg-0
@@ -293,7 +293,7 @@
     .titulo-segundo.color-acento-contenido
       h2 3.2 #[i Places in a city]
     p.mb-5 Los lugares en la ciudad determinan algunos términos de ubicación geográfica que ayudan a denotar dónde vivimos y que son importantes en la descripción detallada del lugar:
-    .row.align-items-center.mb-5
+    .row.align-items-center.mb-5(data-aos="fade-down")
       .col-lg-5.mb-4.mb-lg-0
         figure
           img(src='@/assets/curso/tema3/img2.png', style="width: 550px").m-auto
@@ -341,7 +341,7 @@
             )
             p.mb-0.ms-3 Este parque es para los niños del barrio.
     p.text-center.mb-5 Para una descripción un poco más detallada, también existen términos para nombrar sitios de interés en la ciudad:
-    .row.bg-color11
+    .row.bg-color11(data-aos="fade-right")
       .col-12.p-5
         SlyderF(columnas="col-lg-6 col-xl-3").justify-content-center
           .col-11.col-lg.bg-color13
@@ -461,7 +461,7 @@
     Separador
     .titulo-segundo.color-acento-contenido
       h2 Actividad didáctica
-    .row.mb-5.justify-content-center.align-items-center.align-items-lg-stretch
+    .row.mb-5.justify-content-center.align-items-center.align-items-lg-stretch(data-aos="fade-left")
       .col-6.col-md-4.col-lg-3.mb-4.mb-md-0
         .tarjeta.h-100.d-flex.align-items-center.p-4
           figure
