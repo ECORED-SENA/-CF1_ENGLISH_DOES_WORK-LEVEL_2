@@ -131,6 +131,26 @@
           img(src='@/assets/curso/tema1/img1.png', style="width: 450px").m-auto
       .col-lg-4
         p.mb-0 Las preposiciones #[b #[i.txt-color1 at]], #[b #[i.txt-color1 in]], #[b #[i.txt-color1 on]] suelen generar confusión para los hablantes nativos de español, debido a que las tres se traducen como #[b.txt-color1 “en”]. Estas preposiciones son el ejemplo perfecto de por qué se debe entender cómo y en qué caso se usa una preposición en particular y no solo su traducción.
+    Separador
+    .titulo-segundo.color-acento-contenido
+      h2 Actividad didáctica
+    .row.justify-content-center.align-items-center.align-items-lg-stretch
+      .col-6.col-md-4.col-lg-3.mb-4.mb-md-0
+        .tarjeta.h-100.d-flex.align-items-center.p-4
+          figure
+            img(src="@/assets/template/completar-espacios.svg", alt="Texto que describa la imagen")
+      .col-12.col-md-8.col-lg-9
+        .titulo-segundo
+          h2 #[i Place everything correctly]. / Ubica todo correctamente
+        p.mb-4 #[b Objetivo]. Identificar la preposición de lugar que identifica la ubicación del objeto, persona o animal.
+        .tarjeta.actividad.p-3
+          .row.justify-content-around.align-items-center            
+            .col-sm.mb-3.mb-sm-0
+              p.fw-bold.mb-0 Completar los espacios.
+            .col-auto
+              a.boton.boton--b(:href="obtenerLink('/actividades/actividad1/index.html')" target="_blank")
+                span Realizar
+                i.fas.fa-puzzle-piece
     ModalA(:abrir-modal.sync="modal1")
       .row.align-items-center
         .col-lg-4.mb-4.mb-lg-0
@@ -279,7 +299,7 @@
                 .col-lg-9.ps-4.ps-lg-5.pe-4.py-4.bg-color2.shadow-sm
                   TarjetaAudio.color-primario.mb-3(
                     texto="The apple is <u>behind</u> the book."
-                    :audio="require('@/assets/curso/tema1/audio7.mp3')"**Falta audio7
+                    :audio="require('@/assets/curso/tema1/audio7.mp3')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                   )
                   p.mb-0.ms-3 La manzana está #[b #[u.txt-color1 detrás]] del libro.
@@ -344,7 +364,7 @@
                     img(src='@/assets/curso/tema1/img34.svg', style="width: 90px").m-auto
                 .col-lg-9.ps-4.ps-lg-5.pe-4.py-4.bg-color2.shadow-sm
                   TarjetaAudio.color-primario.mb-3(
-                    texto="Our apartment is <u>below</u> theirs."
+                    texto="Our apartment is <u>below</u> their."
                     :audio="require('@/assets/curso/tema1/audio10.mp3')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                   )

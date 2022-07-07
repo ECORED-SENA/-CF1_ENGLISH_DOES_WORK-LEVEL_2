@@ -44,10 +44,10 @@
           .tarjeta.color-acento-botones.p-3(x="15%" y="10%" numero="+")
             .row
               .col-12
-                p #[b #[i House]]: casa / hogar.
+                p #[b #[i House]]: casa/hogar.
                 TarjetaAudio.color-primario.mb-3(
                   texto="My house is the most beautiful in the neighborhood."
-                  :audio="require('@/assets/curso/tema3/audio3.mp3')"**Falta audio3
+                  :audio="require('@/assets/curso/tema3/audio3.mp3')"
                   @audio-hover="mostrarIndicadorTarjetaAudio = false"
                 )
                 p.mb-0.ms-3 Mi casa es la más hermosa del barrio.
@@ -114,7 +114,7 @@
           .tarjeta.color-acento-botones.p-3(x="72%" y="50%" numero="+")
             .row
               .col-12
-                p #[b #[i Path]]: entrada (peatonal) / sendero.
+                p #[b #[i Path]]: entrada (peatonal)/sendero.
                 TarjetaAudio.color-primario.mb-3(
                   texto="The grocery bags are on the path in front of the house."
                   :audio="require('@/assets/curso/tema3/audio10.mp3')"
@@ -124,7 +124,7 @@
           .tarjeta.color-acento-botones.p-3(x="81%" y="90%" numero="+")
             .row
               .col-12
-                p #[b #[i Mailbox / letterbox]]: buzón (del correo).
+                p #[b #[i Mailbox/letterbox]]: buzón (del correo).
                 TarjetaAudio.color-primario.mb-3(
                   texto="I drop my letters in the corner mailbox."
                   :audio="require('@/assets/curso/tema3/audio11.mp3')"
@@ -134,7 +134,7 @@
           .tarjeta.color-acento-botones.p-3(x="100%" y="10%" numero="+")
             .row
               .col-12
-                p #[b #[i Driveway]]: entrada (de automóviles) / calzada.
+                p #[b #[i Driveway]]: entrada (de automóviles)/calzada.
                 TarjetaAudio.color-primario.mb-3(
                   texto="The visitors park their car in the driveway."
                   :audio="require('@/assets/curso/tema3/audio12.mp3')"
@@ -194,14 +194,14 @@
                 p #[b #[i Attic]]: ático.
                 TarjetaAudio.color-primario.mb-3(
                   texto="The Christmas decorations are stored in the attic."
-                  :audio="require('@/assets/curso/tema3/audio17.mp3')"**Falta audio17
+                  :audio="require('@/assets/curso/tema3/audio17.mp3')"
                   @audio-hover="mostrarIndicadorTarjetaAudio = false"
                 )
                 p.mb-0.ms-3 Los adornos de navidad están guardados en el ático.
           .tarjeta.color-acento-botones.p-3(x="14%" y="90%" numero="+")
             .row
               .col-12
-                p #[b #[i Bedroom]]: habitación / cuarto / dormitorio.
+                p #[b #[i Bedroom]]: habitación/cuarto/dormitorio.
                 TarjetaAudio.color-primario.mb-3(
                   texto="The main bedroom is very large and comfortable."
                   :audio="require('@/assets/curso/tema3/audio18.mp3')"
@@ -333,7 +333,7 @@
             )
             p.mb-0.ms-3 Yo viajo al pueblo en autobús.
           .tarjeta.color-acento-contenido.p-4(titulo="5. <em>Neighborhood</em>")
-            p #[b Barrio / vecindario]
+            p #[b Barrio/vecindario]
             TarjetaAudio.color-primario.mb-3(
               texto="This park is for the neighborhood kids."
               :audio="require('@/assets/curso/tema3/audio31.mp3')"
@@ -384,13 +384,13 @@
             .row.justify-content-center
               .col-9.col-lg-10.bg-color12.shadow-sm.p-3
                 Audio.color-secundario.mx-auto.mb-4(:audio="require('@/assets/curso/tema3/audio38.mp3')")
-                p.text-center.mb-0 #[b #[i.txt-color1 Parking lot / Car park]]
+                p.text-center.mb-0 #[b #[i.txt-color1 Parking lot/Car park]]
                 p.text-center Estacionamiento
           .col-11.col-lg.bg-color20
             .row.justify-content-center
               .col-9.col-lg-10.bg-color12.shadow-sm.p-3
                 Audio.color-secundario.mx-auto.mb-4(:audio="require('@/assets/curso/tema3/audio39.mp3')")
-                p.text-center.mb-0 #[b #[i.txt-color1 Pharmacy / Drugstore]]
+                p.text-center.mb-0 #[b #[i.txt-color1 Pharmacy/Drugstore]]
                 p.text-center Farmacia
           .col-11.col-lg.bg-color21
             .row.justify-content-center
@@ -403,12 +403,12 @@
               .col-9.col-lg-10.bg-color12.shadow-sm.p-3
                 Audio.color-secundario.mx-auto.mb-4(:audio="require('@/assets/curso/tema3/audio41.mp3')")
                 p.text-center.mb-0 #[b #[i.txt-color1 Prison / jail]]
-                p.text-center Cárcel / prisión
+                p.text-center Cárcel/prisión
           .col-11.col-lg.bg-color23
             .row.justify-content-center
               .col-9.col-lg-10.bg-color12.shadow-sm.p-3
                 Audio.color-secundario.mx-auto.mb-4(:audio="require('@/assets/curso/tema3/audio42.mp3')")
-                p.text-center.mb-0 #[b #[i.txt-color1 Bookstore bookshop]]
+                p.text-center.mb-0 #[b #[i.txt-color1 Bookstore/bookshop]]
                 p.text-center Librería (donde se venden libros)
           .col-11.col-lg.bg-color24
             .row.justify-content-center
@@ -420,8 +420,8 @@
             .row.justify-content-center
               .col-9.col-lg-10.bg-color12.shadow-sm.p-3
                 Audio.color-secundario.mx-auto.mb-4(:audio="require('@/assets/curso/tema3/audio44.mp3')")
-                p.text-center.mb-0 #[b #[i.txt-color1 Cinema / Movie theater]]
-                p.text-center Cine / sala de cine
+                p.text-center.mb-0 #[b #[i.txt-color1 Cinema/Movie theater]]
+                p.text-center Cine/sala de cine
           .col-11.col-lg.bg-color26
             .row.justify-content-center
               .col-9.col-lg-10.bg-color12.shadow-sm.p-3
@@ -451,13 +451,33 @@
               .col-9.col-lg-10.bg-color12.shadow-sm.p-3
                 Audio.color-secundario.mx-auto.mb-4(:audio="require('@/assets/curso/tema3/audio49.mp3')")
                 p.text-center.mb-0 #[b #[i.txt-color1 School]]
-                p.text-center Escuela / colegio
+                p.text-center Escuela/colegio
           .col-11.col-lg.bg-color31
             .row.justify-content-center
               .col-9.col-lg-10.bg-color12.shadow-sm.p-3
                 Audio.color-secundario.mx-auto.mb-4(:audio="require('@/assets/curso/tema3/audio50.mp3')")
                 p.text-center.mb-0 #[b #[i.txt-color1 Restaurant]]
                 p.text-center Restaurante
+    Separador
+    .titulo-segundo.color-acento-contenido
+      h2 Actividad didáctica
+    .row.mb-5.justify-content-center.align-items-center.align-items-lg-stretch
+      .col-6.col-md-4.col-lg-3.mb-4.mb-md-0
+        .tarjeta.h-100.d-flex.align-items-center.p-4
+          figure
+            img(src="@/assets/template/seleccion-multiple.svg", alt="Texto que describa la imagen")
+      .col-12.col-md-8.col-lg-9
+        .titulo-segundo
+          h2 #[i Where do these things happen?] / ¿Dónde pasan estas cosas?
+        p.mb-4 #[b Objtivo]. Identificar lugares internos y externos de la casa, así como lugares de la ciudad o sitios de interés.
+        .tarjeta.actividad.p-3
+          .row.justify-content-around.align-items-center            
+            .col-sm.mb-3.mb-sm-0
+              p.fw-bold.mb-0 Opción múltiple.
+            .col-auto
+              a.boton.boton--b(:href="obtenerLink('/actividades/actividad3/index.html')" target="_blank")
+                span Realizar
+                i.fas.fa-puzzle-piece
 
 </template>
 

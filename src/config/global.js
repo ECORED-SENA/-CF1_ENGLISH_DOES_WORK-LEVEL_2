@@ -1,9 +1,9 @@
 export default {
   global: {
     componenteFormativo:
-      '<em>This is where I live</em><br><span>Aquí es donde vivo</span>',
+      '<span1><em>This is where I live</em></span1><br><span>Aquí es donde vivo</span>',
     descripcionCurso:
-      'Para tener las herramientas necesarias a la hora de brindar las indicaciones sobre la ubicación de algo, se explica el tema de preposiciones de lugar; seguidamente, se hace una introducción a las WH questions y se profundiza en las aplicaciones de “Where”. Por último, se indica vocabulario sobre lugares en el hogar y su contexto cercano (barrio, lugares comunes en la ciudad).',
+      'Para tener las herramientas necesarias a la hora de brindar las indicaciones sobre la ubicación de algo, se explica el tema de preposiciones de lugar; seguidamente, se hace una introducción a las <em>WH questions</em> y se profundiza en las aplicaciones de “<em>where</em>”. Por último, se indica vocabulario sobre lugares en el hogar y su contexto cercano (barrio, lugares comunes en la ciudad).',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.svg'),
     imagenesDecorativasBanner: [
@@ -53,7 +53,7 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: '2.	Introducción a las <em>WH questions</em>',
+        titulo: 'Introducción a las <em>WH questions</em>',
         desarrolloContenidos: true,
       },
       {
@@ -301,7 +301,7 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Lina Marcela Perez',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',

@@ -42,7 +42,7 @@
                   td(style="border:hidden") ¿Cuándo?
                 tr
                   td #[b #[i.txt-color1 What? /wɒt/]]
-                  td(style="border:hidden") ¿Qué / Cuál?
+                  td(style="border:hidden") ¿Qué? / ¿Cuál?
                 tr(style="background-color: white")
                   td #[b #[i.txt-color1 Who? /huː/]]
                   td(style="border:hidden") ¿Quién?
@@ -54,7 +54,7 @@
                   td(style="border:hidden") ¿Por qué?
                 tr
                   td #[b #[i.txt-color1 Which? /wɪtʃ/]]
-                  td(style="border:hidden") ¿Cuál / Cuáles?
+                  td(style="border:hidden") ¿Cuál? / ¿Cuáles?
                 tr(style="background-color: white")
                   td #[b #[i.txt-color1 Whose? /huːz/]]
                   td(style="border:hidden") ¿De quién?
@@ -113,8 +113,8 @@
       .col-lg-4 
         figure
           img(src='@/assets/curso/tema2/img5.svg', style="width: 350px").m-auto
-    p.text-center.mb-4 Ahora, revise el uso de #[i “Where”] como pregunta por un #[b #[u.txt-color1 lugar]] o una #[b #[u.txt-color1 ubicación]] según el contexto de la pregunta.
-    p.text-center.mb-5 Hacer la pregunta ¿dónde?
+    p.text-center.mb-4 Ahora, revise el uso de #[i “where”] como pregunta por un #[b #[u.txt-color1 lugar]] o una #[b #[u.txt-color1 ubicación]] según el contexto de la pregunta.
+    p.text-center.mb-5 Hacer la pregunta “¿dónde?”
     .row.bg-color6
       .col-12.px-5
         .row.align-items-end
@@ -170,7 +170,7 @@
                         @audio-hover="mostrarIndicadorTarjetaAudio = false"
                       )
                       p.mb-0.ms-3 ¿Dónde está la manzana?
-    .row.bg-color7
+    .row.bg-color7.mb-2
       .col-12.px-5
         .p-4
           .row.align-items-center.justify-content-center
@@ -181,7 +181,7 @@
                 .col-lg.bg-color8.p-4.me-0.me-lg-5
                   TarjetaAudio.color-primario.mb-3.me-lg-5(
                     texto="The apple is between the boxes."
-                    :audio="require('@/assets/curso/tema2/audio6.mp3')"
+                    :audio="require('@/assets/curso/tema2/audio8.mp3')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                   )
                   p.mb-0.ms-3 La manzana está entre las cajas.
@@ -189,6 +189,26 @@
                   .fig-position4
                     figure
                       img(src='@/assets/curso/tema2/img11.svg', style="width: 70px").m-auto
+    Separador
+    .titulo-segundo.color-acento-contenido
+      h2 Actividad didáctica
+    .row.justify-content-center.align-items-center.align-items-lg-stretch
+      .col-6.col-md-4.col-lg-3.mb-4.mb-md-0
+        .tarjeta.h-100.d-flex.align-items-center.p-4
+          figure
+            img(src="@/assets/template/arrastrar.svg", alt="Texto que describa la imagen")
+      .col-12.col-md-8.col-lg-9
+        .titulo-segundo
+          h2 #[i Where is it?] / ¿Dónde está?
+        p.mb-4 #[b Objetivo]. Identificar la respuesta correspondiente a las aplicaciones de where.
+        .tarjeta.actividad.p-3
+          .row.justify-content-around.align-items-center            
+            .col-sm.mb-3.mb-sm-0
+              p.fw-bold.mb-0 Arrastrar y soltar.
+            .col-auto
+              a.boton.boton--b(:href="obtenerLink('/actividades/actividad2/index.html')" target="_blank")
+                span Realizar
+                i.fas.fa-puzzle-piece
 
 </template>
 
