@@ -116,7 +116,7 @@
               .col-12
                 p #[b #[i Path]]: entrada (peatonal)/sendero.
                 TarjetaAudio.color-primario.mb-3(
-                  texto="The grocery bags are on the path in front of the house."
+                  texto="The grocery bags are on the path in the front of the house."
                   :audio="require('@/assets/curso/tema3/audio10.mp3')"
                   @audio-hover="mostrarIndicadorTarjetaAudio = false"
                 )

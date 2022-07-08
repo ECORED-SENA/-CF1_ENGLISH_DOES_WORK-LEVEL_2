@@ -188,7 +188,7 @@
                 .col-lg-auto.d-none.d-lg-block
                   .fig-position4
                     figure
-                      img(src='@/assets/curso/tema2/img11.svg', style="width: 70px").m-auto
+                      img(src='@/assets/curso/tema2/img11.svg', style="width: 140px").m-auto
     Separador
     .titulo-segundo.color-acento-contenido
       h2 Actividad didáctica
