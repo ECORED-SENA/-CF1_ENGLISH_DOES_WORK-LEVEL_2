@@ -347,115 +347,115 @@
           .col-11.col-lg.bg-color13
             .row.justify-content-center
               .col-9.col-lg-10.bg-color12.shadow-sm.p-3
-                Audio.color-secundario.mx-auto.mb-4(:audio="require('@/assets/curso/tema3/audio32.mp3')")
+                Audio.color-primario.mx-auto.mb-4(:audio="require('@/assets/curso/tema3/audio32.mp3')")
                 p.text-center.mb-0 #[b #[i.txt-color1 Airport]]
                 p.text-center Aeropuerto
           .col-11.col-lg.bg-color14
             .row.justify-content-center
               .col-9.col-lg-10.bg-color12.shadow-sm.p-3
-                Audio.color-secundario.mx-auto.mb-4(:audio="require('@/assets/curso/tema3/audio33.mp3')")
+                Audio.color-primario.mx-auto.mb-4(:audio="require('@/assets/curso/tema3/audio33.mp3')")
                 p.text-center.mb-0 #[b #[i.txt-color1 Bakery]]
                 p.text-center Panadería
           .col-11.col-lg.bg-color15
             .row.justify-content-center
               .col-9.col-lg-10.bg-color12.shadow-sm.p-3
-                Audio.color-secundario.mx-auto.mb-4(:audio="require('@/assets/curso/tema3/audio34.mp3')")
+                Audio.color-primario.mx-auto.mb-4(:audio="require('@/assets/curso/tema3/audio34.mp3')")
                 p.text-center.mb-0 #[b #[i.txt-color1 Bank]]
                 p.text-center Banco
           .col-11.col-lg.bg-color16
             .row.justify-content-center
               .col-9.col-lg-10.bg-color12.shadow-sm.p-3
-                Audio.color-secundario.mx-auto.mb-4(:audio="require('@/assets/curso/tema3/audio35.mp3')")
+                Audio.color-primario.mx-auto.mb-4(:audio="require('@/assets/curso/tema3/audio35.mp3')")
                 p.text-center.mb-0 #[b #[i.txt-color1 Supermarket]]
                 p.text-center Supermercado
           .col-11.col-lg.bg-color17
             .row.justify-content-center
               .col-9.col-lg-10.bg-color12.shadow-sm.p-3
-                Audio.color-secundario.mx-auto.mb-4(:audio="require('@/assets/curso/tema3/audio36.mp3')")
+                Audio.color-primario.mx-auto.mb-4(:audio="require('@/assets/curso/tema3/audio36.mp3')")
                 p.text-center.mb-0 #[b #[i.txt-color1 Hospital]]
                 p.text-center Hospital
           .col-11.col-lg.bg-color18
             .row.justify-content-center
               .col-9.col-lg-10.bg-color12.shadow-sm.p-3
-                Audio.color-secundario.mx-auto.mb-4(:audio="require('@/assets/curso/tema3/audio37.mp3')")
+                Audio.color-primario.mx-auto.mb-4(:audio="require('@/assets/curso/tema3/audio37.mp3')")
                 p.text-center.mb-0 #[b #[i.txt-color1 Hotel]]
                 p.text-center Hotel
           .col-11.col-lg.bg-color19
             .row.justify-content-center
               .col-9.col-lg-10.bg-color12.shadow-sm.p-3
-                Audio.color-secundario.mx-auto.mb-4(:audio="require('@/assets/curso/tema3/audio38.mp3')")
+                Audio.color-primario.mx-auto.mb-4(:audio="require('@/assets/curso/tema3/audio38.mp3')")
                 p.text-center.mb-0 #[b #[i.txt-color1 Parking lot/Car park]]
                 p.text-center Estacionamiento
           .col-11.col-lg.bg-color20
             .row.justify-content-center
               .col-9.col-lg-10.bg-color12.shadow-sm.p-3
-                Audio.color-secundario.mx-auto.mb-4(:audio="require('@/assets/curso/tema3/audio39.mp3')")
+                Audio.color-primario.mx-auto.mb-4(:audio="require('@/assets/curso/tema3/audio39.mp3')")
                 p.text-center.mb-0 #[b #[i.txt-color1 Pharmacy/Drugstore]]
                 p.text-center Farmacia
           .col-11.col-lg.bg-color21
             .row.justify-content-center
               .col-9.col-lg-10.bg-color12.shadow-sm.p-3
-                Audio.color-secundario.mx-auto.mb-4(:audio="require('@/assets/curso/tema3/audio40.mp3')")
+                Audio.color-primario.mx-auto.mb-4(:audio="require('@/assets/curso/tema3/audio40.mp3')")
                 p.text-center.mb-0 #[b #[i.txt-color1 Police station]]
                 p.text-center Estación de policía
           .col-11.col-lg.bg-color22
             .row.justify-content-center
               .col-9.col-lg-10.bg-color12.shadow-sm.p-3
-                Audio.color-secundario.mx-auto.mb-4(:audio="require('@/assets/curso/tema3/audio41.mp3')")
+                Audio.color-primario.mx-auto.mb-4(:audio="require('@/assets/curso/tema3/audio41.mp3')")
                 p.text-center.mb-0 #[b #[i.txt-color1 Prison / jail]]
                 p.text-center Cárcel/prisión
           .col-11.col-lg.bg-color23
             .row.justify-content-center
               .col-9.col-lg-10.bg-color12.shadow-sm.p-3
-                Audio.color-secundario.mx-auto.mb-4(:audio="require('@/assets/curso/tema3/audio42.mp3')")
+                Audio.color-primario.mx-auto.mb-4(:audio="require('@/assets/curso/tema3/audio42.mp3')")
                 p.text-center.mb-0 #[b #[i.txt-color1 Bookstore/bookshop]]
                 p.text-center Librería (donde se venden libros)
           .col-11.col-lg.bg-color24
             .row.justify-content-center
               .col-9.col-lg-10.bg-color12.shadow-sm.p-3
-                Audio.color-secundario.mx-auto.mb-4(:audio="require('@/assets/curso/tema3/audio43.mp3')")
+                Audio.color-primario.mx-auto.mb-4(:audio="require('@/assets/curso/tema3/audio43.mp3')")
                 p.text-center.mb-0 #[b #[i.txt-color1 Bus station]]
                 p.text-center Estación de autobuses
           .col-11.col-lg.bg-color25
             .row.justify-content-center
               .col-9.col-lg-10.bg-color12.shadow-sm.p-3
-                Audio.color-secundario.mx-auto.mb-4(:audio="require('@/assets/curso/tema3/audio44.mp3')")
+                Audio.color-primario.mx-auto.mb-4(:audio="require('@/assets/curso/tema3/audio44.mp3')")
                 p.text-center.mb-0 #[b #[i.txt-color1 Cinema/Movie theater]]
                 p.text-center Cine/sala de cine
           .col-11.col-lg.bg-color26
             .row.justify-content-center
               .col-9.col-lg-10.bg-color12.shadow-sm.p-3
-                Audio.color-secundario.mx-auto.mb-4(:audio="require('@/assets/curso/tema3/audio45.mp3')")
+                Audio.color-primario.mx-auto.mb-4(:audio="require('@/assets/curso/tema3/audio45.mp3')")
                 p.text-center.mb-0 #[b #[i.txt-color1 Gym]]
                 p.text-center Gimnasio
           .col-11.col-lg.bg-color27
             .row.justify-content-center
               .col-9.col-lg-10.bg-color12.shadow-sm.p-3
-                Audio.color-secundario.mx-auto.mb-4(:audio="require('@/assets/curso/tema3/audio46.mp3')")
+                Audio.color-primario.mx-auto.mb-4(:audio="require('@/assets/curso/tema3/audio46.mp3')")
                 p.text-center.mb-0 #[b #[i.txt-color1 Museum]]
                 p.text-center Museo
           .col-11.col-lg.bg-color28
             .row.justify-content-center
               .col-9.col-lg-10.bg-color12.shadow-sm.p-3
-                Audio.color-secundario.mx-auto.mb-4(:audio="require('@/assets/curso/tema3/audio47.mp3')")
+                Audio.color-primario.mx-auto.mb-4(:audio="require('@/assets/curso/tema3/audio47.mp3')")
                 p.text-center.mb-0 #[b #[i.txt-color1 Park]]
                 p.text-center Parque
           .col-11.col-lg.bg-color29
             .row.justify-content-center
               .col-9.col-lg-10.bg-color12.shadow-sm.p-3
-                Audio.color-secundario.mx-auto.mb-4(:audio="require('@/assets/curso/tema3/audio48.mp3')")
+                Audio.color-primario.mx-auto.mb-4(:audio="require('@/assets/curso/tema3/audio48.mp3')")
                 p.text-center.mb-0 #[b #[i.txt-color1 Shopping mall]]
                 p.text-center Centro comercial
           .col-11.col-lg.bg-color30
             .row.justify-content-center
               .col-9.col-lg-10.bg-color12.shadow-sm.p-3
-                Audio.color-secundario.mx-auto.mb-4(:audio="require('@/assets/curso/tema3/audio49.mp3')")
+                Audio.color-primario.mx-auto.mb-4(:audio="require('@/assets/curso/tema3/audio49.mp3')")
                 p.text-center.mb-0 #[b #[i.txt-color1 School]]
                 p.text-center Escuela/colegio
           .col-11.col-lg.bg-color31
             .row.justify-content-center
               .col-9.col-lg-10.bg-color12.shadow-sm.p-3
-                Audio.color-secundario.mx-auto.mb-4(:audio="require('@/assets/curso/tema3/audio50.mp3')")
+                Audio.color-primario.mx-auto.mb-4(:audio="require('@/assets/curso/tema3/audio50.mp3')")
                 p.text-center.mb-0 #[b #[i.txt-color1 Restaurant]]
                 p.text-center Restaurante
     Separador

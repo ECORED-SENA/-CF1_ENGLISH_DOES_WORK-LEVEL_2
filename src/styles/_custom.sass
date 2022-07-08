@@ -58,7 +58,7 @@
     background-image: url("../assets/curso/portada/banner-principal-decorativo-1.svg"), url("../assets/curso/portada/banner-principal-decorativo-2.svg")
 
 .banner-principal__row .banner-principal__img
-  width: 550px
+  width: 530px
 
 .banner-principal__componente
   margin-top: 35px
@@ -106,6 +106,22 @@
 .tarjeta.color-acento-contenido
   background-color: #E1E8FF
   border: 1px solid #A6BBFF
+
+.tabs-a.color-acento-botones .tabs-a__tab:hover, .tabs-a.color-acento-botones .tabs-a__tab:active, .tabs-a.color-acento-botones .tabs-a__tab:focus
+  background-color: #FF5F65
+  color: white
+  em
+    color: white
+
+.tabs-a.color-acento-botones .tabs-a__tab__selected::before
+  background-color: #FF5F65
+
+.tabs-a.color-acento-botones .tabs-a__tab__selected
+  background-color: #FF5F65
+  color: white
+
+.tabs-a__tab
+  background-color: #FFDFE0
 
 .bg-color1
   background-color: #6B8DFF
@@ -398,6 +414,11 @@
     td
       border: 0px
       padding: 5px
+
+@media screen and ( max-width: 1200px )
+
+  .banner-principal__row .banner-principal__img
+    width: 360px
 
 @media screen and ( max-width: 992px )
 

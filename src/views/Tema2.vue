@@ -171,12 +171,12 @@
                       )
                       p.mb-0.ms-3 ¿Dónde está la manzana?
     .row.bg-color7.mb-2(data-aos="fade-right")
-      .col-12.px-5
+      .col-12.p-5
         .p-4
           .row.align-items-center.justify-content-center
             .col-lg-3
-              p.text-white #[b En este caso, la respuesta para la última pregunta sería:]
-            .col-lg-6.p-4
+              h5.text-white.text-center #[b En este caso, la respuesta para la última pregunta sería:]
+            .col-lg-8
               .row.align-items-center
                 .col-lg.bg-color8.p-4.me-0.me-lg-5
                   TarjetaAudio.color-primario.mb-3.me-lg-5(

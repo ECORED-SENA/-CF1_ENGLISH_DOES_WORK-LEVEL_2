@@ -25,7 +25,7 @@
                   img(src='@/assets/curso/tema1/img2.svg', style="width: 190px").m-auto
               .col-auto.fig-position1
                 a.boton.color-acento-botones.indicador__container(@click="modal1 = true")
-                  span.text-center #[i IN]
+                  span.text-center #[b #[i IN]]
                   .indicador--click(v-if="mostrarIndicador")
           .col-9.col-lg
             .row.justify-content-center
@@ -34,7 +34,7 @@
                   img(src='@/assets/curso/tema1/img3.svg', style="width: 190px").m-auto
               .col-auto.fig-position1
                 a.boton.color-acento-botones.indicador__container(@click="modal2 = true")
-                  span.text-center #[i ON]
+                  span.text-center #[b #[i ON]]
           .col-9.col-lg
             .row.justify-content-center
               .col-12
@@ -42,7 +42,7 @@
                   img(src='@/assets/curso/tema1/img4.svg', style="width: 190px").m-auto
               .col-auto.fig-position1
                 a.boton.color-acento-botones.indicador__container(@click="modal3 = true")
-                  span.text-center #[i AT]
+                  span.text-center #[b #[i AT]]
           .col-9.col-lg
             .row.justify-content-center
               .col-12
@@ -50,7 +50,7 @@
                   img(src='@/assets/curso/tema1/img5.svg', style="width: 190px").m-auto
               .col-auto.fig-position1
                 a.boton.color-acento-botones.indicador__container(@click="modal4 = true")
-                  span.text-center #[i BETWEEN]
+                  span.text-center #[b #[i BETWEEN]]
           .col-9.col-lg
             .row.justify-content-center
               .col-12
@@ -58,7 +58,7 @@
                   img(src='@/assets/curso/tema1/img6.svg', style="width: 190px").m-auto
               .col-auto.fig-position1
                 a.boton.color-acento-botones.indicador__container(@click="modal5 = true")
-                  span.text-center #[i NEXT TO]
+                  span.text-center #[b #[i NEXT TO]]
         .row.justify-content-center
           .col-9.col-lg
             .row.justify-content-center
@@ -67,7 +67,7 @@
                   img(src='@/assets/curso/tema1/img7.svg', style="width: 190px").m-auto
               .col-auto.fig-position1
                 a.boton.color-acento-botones.indicador__container(@click="modal6 = true")
-                  span.text-center #[i BEHIND]
+                  span.text-center #[b #[i BEHIND]]
           .col-9.col-lg
             .row.justify-content-center
               .col-12
@@ -75,7 +75,7 @@
                   img(src='@/assets/curso/tema1/img8.svg', style="width: 190px").m-auto
               .col-auto.fig-position1
                 a.boton.color-acento-botones.indicador__container(@click="modal7 = true")
-                  span.text-center #[i IN FRONT OF]
+                  span.text-center #[b #[i IN FRONT OF]]
           .col-9.col-lg
             .row.justify-content-center
               .col-12
@@ -83,7 +83,7 @@
                   img(src='@/assets/curso/tema1/img9.svg', style="width: 190px").m-auto
               .col-auto.fig-position1
                 a.boton.color-acento-botones.indicador__container(@click="modal8 = true")
-                  span.text-center #[i UNDER]
+                  span.text-center #[b #[i UNDER]]
           .col-9.col-lg
             .row.justify-content-center
               .col-12
@@ -91,7 +91,7 @@
                   img(src='@/assets/curso/tema1/img10.svg', style="width: 190px").m-auto
               .col-auto.fig-position1
                 a.boton.color-acento-botones.indicador__container(@click="modal9 = true")
-                  span.text-center #[i BELOW]
+                  span.text-center #[b #[i BELOW]]
           .col-9.col-lg
             .row.justify-content-center
               .col-12
@@ -99,7 +99,7 @@
                   img(src='@/assets/curso/tema1/img11.svg', style="width: 190px").m-auto
               .col-auto.fig-position1
                 a.boton.color-acento-botones.indicador__container(@click="modal10 = true")
-                  span.text-center #[i AMONG]
+                  span.text-center #[b #[i AMONG]]
         .row.justify-content-center
           .col-9.col-lg-3
             .row.justify-content-center
@@ -108,7 +108,7 @@
                   img(src='@/assets/curso/tema1/img12.svg', style="width: 190px").m-auto
               .col-auto.fig-position1
                 a.boton.color-acento-botones.indicador__container(@click="modal11 = true")
-                  span.text-center #[i ABOVE]
+                  span.text-center #[b #[i ABOVE]]
           .col-9.col-lg-3
             .row.justify-content-center
               .col-12
@@ -116,7 +116,7 @@
                   img(src='@/assets/curso/tema1/img14.svg', style="width: 190px").m-auto
               .col-auto.fig-position1
                 a.boton.color-acento-botones.indicador__container(@click="modal12 = true")
-                  span.text-center #[i AGAINST]
+                  span.text-center #[b #[i AGAINST]]
           .col-9.col-lg-3
             .row.justify-content-center
               .col-12
@@ -124,7 +124,7 @@
                   img(src='@/assets/curso/tema1/img13.svg', style="width: 190px").m-auto
               .col-auto.fig-position1
                 a.boton.color-acento-botones.indicador__container(@click="modal13 = true")
-                  span.text-center #[i FAR FROM]
+                  span.text-center #[b #[i FAR FROM]]
     .row.justify-content-center.align-items-end(data-aos="fade-up")
       .col-lg-4.mb-4.mb-lg-0
         figure
